@@ -5,17 +5,14 @@ import "./Navbar.css";
 
 const Navbar = () => {
 
-    const {isResponsive,setIsResponsive} = useState(false)
     return (
       <nav className="navbar"> 
-        <h3 className= "logo">LuxLens </h3>
-        <ul className={isResponsive? "nav-links-responsive": "nav-links"}
-        onClick={() => setIsResponsive(false)}
-        > 
+        <h3 className= "logo"> </h3>
+        
 
 
      
-
+  <ul className="pages">
 
         <div class="flex flex2">
         <Link to="/" className="home">
@@ -34,19 +31,14 @@ const Navbar = () => {
         <li>INTERNET <br></br>ARTWORK</li>
         </Link>
 
+        
         </div>
+
         </ul>
-        <button className="responsive-menu-icon"
-        onClick={() => setIsResponsive(!isResponsive)}
-        >
-            {isResponsive ?
-            (
-            <i className="fas fa-times"></i> 
-            ) : 
-            (
-            <i className="fas fa-bars"></i>
-            )}
-        </button>
+        
+
+       
+       
       </nav>
     )
 }

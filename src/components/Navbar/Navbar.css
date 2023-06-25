@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,700&display=swap');
 :root {
     --main-color: rgb(203, 202, 202);
     --black:#13131;
     --bg:#010103;
     --border:.2rem solid rgba(251, 248, 248, 0.793);
 	font-size: 10px;
+	font-family: 'Chakra Petch', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 .navbar {
@@ -11,6 +15,7 @@
     position: fixed;
 	left: 5px;
 	top: 20px;
+	font-size: 20px;
   
 	display: flex;
 	flex-direction: column;
@@ -125,6 +130,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
   
 	color: var(--white);
   
