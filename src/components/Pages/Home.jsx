@@ -8,6 +8,7 @@ import Door from "../Door/Door"
 const Home = () => {
   return (
     <div>
+		
             
       
          
