@@ -40,7 +40,7 @@ const Blogs = () => {
                 </svg>
                             </div>
                             <div className="blogs__meta">
-                            <Link to="/internetartwork" className="internetartwork"> 
+                            <Link to="/blog1" className="blog1"> 
                                 <h1 className="blogs__text">Blog 1(Javascript & The Work of Art in the Age of the Internet)</h1>
                                 <p className="p blogs__text p__color">
                                 The Javascript videos personally helped me
@@ -76,6 +76,7 @@ const Blogs = () => {
                 </svg>
                             </div>
                             <div className="blogs__meta">
+                            <Link to="/blog2" className="blog2">
                                 <h1 className="blogs__text">Blog 2(API's & Convention and Concept)</h1>
                                 <p className="p blogs__text p__color">
                                 The API videos were informative
@@ -86,6 +87,7 @@ const Blogs = () => {
                                 <p className="p blogs__text p__color">
                                 working with API's and extracting data...
                                 </p>
+                                </Link>
                             </div>
                          </div>
                     </div>
@@ -108,6 +110,7 @@ const Blogs = () => {
                 </svg>
                             </div>
                             <div className="blogs__meta">
+                            <Link to="/blog3" className="blog3">
                                 <h1 className="blogs__text">Blog 3(Internet Analysis) </h1>
                                 <p className="p blogs__text p__color">
                                 My choice of net/web art to analyze is Indirect Flights
@@ -118,6 +121,7 @@ const Blogs = () => {
                                 <p className="p blogs__text p__color">
                                 At first glance it is chaotic...
                                 </p>
+                                </Link>
                             </div>
                          </div>
                     </div>
@@ -141,6 +145,8 @@ const Blogs = () => {
                 </svg>
                             </div>
                             <div className="blogs__meta">
+                            <Link to="/essay" className="essay">
+
                                 <h1 className="blogs__text">My essay </h1>
                                 <p className="p blogs__text p__color">
                                 In this paper I do an analysis on the net art called "SCREENFULL"
@@ -151,6 +157,7 @@ const Blogs = () => {
                                 <p className="p blogs__text p__color">
                                 This is net art addresses my area of interest conceptually...
                                 </p>
+                                </Link>
                             </div>
                          </div>
                     </div>

@@ -15,7 +15,7 @@ const InternetArtwork = () => {
   return (
     <div>
 
-<video autoPlay loop muted id='video'>
+<video autoPlay muted id='video'>
 
 <source src={pageVideo} type="video/mp4"/>
 </video>

@@ -38,6 +38,17 @@ const Home = () => {
       
       
 		</aside>
+
+		<aside id="sidebar">
+
+		<section id="main">
+		
+		<p> Drag and scroll to look at some of his work! </p>
+		</section>
+    
+      
+      
+		</aside>
     <Carousel/>
 	</div>
   <Video/>
