@@ -2,7 +2,7 @@ import React from 'react'
 import "./FooterStyles.css"
 import Image1 from "./Image1.jpg"
 import Image2 from "./Image2.jpg"
-import Image3 from "./Image3.jpg"
+
 
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
         <div class="pages">
           <ul>
             <h3>Jack Stauber </h3>
-            <li><a href="#"> <img src={Image1} alt="Img1" /></a></li>
+            <li><a href="#"> <img classname= "footer-images"src={Image1} alt="Img1" /></a></li>
             <li><a href="#">hypnagogogic pop music</a></li>
             <li><a href="#">"Collects objects to create sound"</a></li>
             <li><a href="#">"Surreal characters" </a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
             <h3>American musician</h3>
             <li><a href="#">"false teeth being created using resin"</a></li>
             <li><a href="#">"Jack Stauber is certainly not our usual synthwave sound"</a></li>
-            <li><a href="#"><img src={Image2} alt="Img2" /></a></li>
+            <li><a href="#"><img className="footer-images"src={Image2} alt="Img2" /></a></li>
             <li><a href="#">"His work includes themes of absurdity"</a></li>
             <li><a href="#">"nostalgia"</a></li>
             <li><a href="#"> "Strange"</a></li>

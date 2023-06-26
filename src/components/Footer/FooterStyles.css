@@ -32,9 +32,9 @@
   main {
     flex: 1;
   }
-  img {
+.footer-images{
     width: 10%;
-    height:30%;
+    height:20%;
   }
   
   footer {
